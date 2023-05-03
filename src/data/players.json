@@ -1,0 +1,260 @@
+{
+  "quarterbacks": [
+    {
+      "label": "Tom Brady",
+      "team": "Tampa Bay Buccaneers"
+    },
+    {
+      "label": "Aaron Rodgers",
+      "team": "Green Bay Packers"
+    },
+    {
+      "label": "Patrick Mahomes",
+      "team": "Kansas City Chiefs"
+    },
+    {
+      "label": "Russell Wilson",
+      "team": "Seattle Seahawks"
+    },
+    {
+      "label": "Dak Prescott",
+      "team": "Dallas Cowboys"
+    },
+    {
+      "label": "Matt Ryan",
+      "team": "Atlanta Falcons"
+    },
+    {
+      "label": "Jared Goff",
+      "team": "Detroit Lions"
+    },
+    {
+      "label": "Carson Wentz",
+      "team": "Indianapolis Colts"
+    },
+    {
+      "label": "Ryan Tannehill",
+      "team": "Tennessee Titans"
+    },
+    {
+      "label": "Kirk Cousins",
+      "team": "Minnesota Vikings"
+    },
+    {
+      "label": "Baker Mayfield",
+      "team": "Cleveland Browns"
+    },
+    {
+      "label": "Ben Roethlisberger",
+      "team": "Pittsburgh Steelers"
+    },
+    {
+      "label": "Lamar Jackson",
+      "team": "Baltimore Ravens"
+    },
+    {
+      "label": "Joe Burrow",
+      "team": "Cincinnati Bengals"
+    },
+    {
+      "label": "Deshaun Watson",
+      "team": "Houston Texans"
+    },
+    {
+      "label": "Justin Herbert",
+      "team": "Los Angeles Chargers"
+    },
+    {
+      "label": "Josh Allen",
+      "team": "Buffalo Bills"
+    },
+    {
+      "label": "Sam Darnold",
+      "team": "Carolina Panthers"
+    },
+    {
+      "label": "Teddy Bridgewater",
+      "team": "Denver Broncos"
+    },
+    {
+      "label": "Tua Tagovailoa",
+      "team": "Miami Dolphins"
+    },
+    {
+      "label": "Derek Carr",
+      "team": "Las Vegas Raiders"
+    },
+    {
+      "label": "Jameis Winston",
+      "team": "New Orleans Saints"
+    },
+    {
+      "label": "Jimmy Garoppolo",
+      "team": "San Francisco 49ers"
+    },
+    {
+      "label": "Kyler Murray",
+      "team": "Arizona Cardinals"
+    },
+    {
+      "label": "Matthew Stafford",
+      "team": "Los Angeles Rams"
+    },
+    {
+      "label": "Jalen Hurts",
+      "team": "Philadelphia Eagles"
+    },
+    {
+      "label": "Daniel Jones",
+      "team": "New York Giants"
+    },
+    {
+      "label": "Cam Newton",
+      "team": "Free Agent"
+    },
+    {
+      "label": "Trevor Lawrence",
+      "team": "Jacksonville Jaguars"
+    },
+    {
+      "label": "Zach Wilson",
+      "team": "New York Jets"
+    },
+    {
+      "label": "Mac Jones",
+      "team": "New England Patriots"
+    },
+    {
+      "label": "Justin Fields",
+      "team": "Chicago Bears"
+    },
+    {
+      "label": "Andy Dalton",
+      "team": "Chicago Bears"
+    },
+    {
+      "label": "Jacoby Brissett",
+      "team": "Miami Dolphins"
+    },
+    {
+      "label": "Mitchell Trubisky",
+      "team": "Buffalo Bills"
+    },
+    {
+      "label": "Nick Foles",
+      "team": "Chicago Bears"
+    },
+    {
+      "label": "Davis Mills",
+      "team": "Houston Texans"
+    },
+    {
+      "label": "Tyrod Taylor",
+      "team": "Houston Texans"
+    },
+    {
+      "label": "Jared Stidham",
+      "team": "New England Patriots"
+    },
+    {
+      "label": "Mike Glennon",
+      "team": "New York Giants"
+    },
+    {
+      "label": "Colt McCoy",
+      "team": "Arizona Cardinals"
+    },
+    {
+      "label": "Blaine Gabbert",
+      "team": "Tampa Bay Buccaneers"
+    },
+    {
+      "label": "Chase Daniel",
+      "team": "Los Angeles Chargers"
+    },
+    {
+      "label": "Matt Barkley",
+      "team": "Tennessee Titans"
+    },
+    {
+      "label": "Cooper Rush",
+      "team": "Dallas Cowboys"
+    },
+    {
+      "label": "Jordan Love",
+      "team": "Green Bay Packers"
+    },
+    {
+      "label": "Mason Rudolph",
+      "team": "Pittsburgh Steelers"
+    },
+    {
+      "label": "Devlin Hodges",
+      "team": "Los Angeles Rams"
+    },
+    {
+      "label": "Nate Sudfeld",
+      "team": "San Francisco 49ers"
+    },
+    {
+      "label": "Sean Mannion",
+      "team": "Seattle Seahawks"
+    },
+    {
+      "label": "Kyle Lauletta",
+      "team": "Atlanta Falcons"
+    },
+    {
+      "label": "Joshua Dobbs",
+      "team": "Pittsburgh Steelers"
+    },
+    {
+      "label": "Trace McSorley",
+      "team": "Baltimore Ravens"
+    },
+    {
+      "label": "Taylor Heinicke",
+      "team": "Washington Football Team"
+    },
+    {
+      "label": "Garrett Gilbert",
+      "team": "Dallas Cowboys"
+    },
+    {
+      "label": "Will Grier",
+      "team": "Carolina Panthers"
+    },
+    {
+      "label": "Jake Luton",
+      "team": "Seattle Seahawks"
+    },
+    {
+      "label": "Geno Smith",
+      "team": "Seattle Seahawks"
+    },
+    {
+      "label": "Brett Hundley",
+      "team": "Arizona Cardinals"
+    },
+    {
+      "label": "Ian Book",
+      "team": "New Orleans Saints"
+    },
+    {
+      "label": "Kyle Trask",
+      "team": "Tampa Bay Buccaneers"
+    },
+    {
+      "label": "Kellen Mond",
+      "team": "Minnesota Vikings"
+    },
+    {
+      "label": "Davis Webb",
+      "team": "Buffalo Bills"
+    },
+    {
+      "label": "Ryan Griffin",
+      "team": "New Orleans Saints"
+    }
+  ]
+}
