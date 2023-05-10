@@ -1,12 +1,8 @@
-import './App.css';
-import LineItem from './components/LineItem';
+import "./App.css";
+import Views from "./components/Views";
 
 function App() {
-  return (
-    <div className="App">
-        <LineItem />
-    </div>
-  );
+  return <Views />;
 }
 
 export default App;
