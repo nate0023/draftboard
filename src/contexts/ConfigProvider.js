@@ -8,7 +8,7 @@ export function useConfig() {
 }
 
 export function ConfigProvider({ children }) {
-  const [settings, setSettings] = useState({ playerCount: 5, playerList: ['qb','rb','rb','wr','wr','k','d'] });
+  const [settings, setSettings] = useState({ playerCount: '5', qbCount: '1', rbCount: '2', wrCount: '3'});
   
   return (
     <ConfigContext.Provider value={{ settings, setSettings }}>

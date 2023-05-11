@@ -1,6 +1,6 @@
 import { Select } from "chakra-react-select";
 import playerData from "../data/players.json";
-import { Stack, Divider, Center } from "@chakra-ui/react";
+import { Stack } from "@chakra-ui/react";
 import { useConfig } from "../contexts/ConfigProvider";
 
 const mappedQuarterbacks = playerData.quarterbacks.map((option) => ({
@@ -13,18 +13,40 @@ const LineItem = () => {
   const { settings } = useConfig();  
 
   //this function will create player selection boxes based on the player list set in the config
+  //CLEAN THIS
   const createPlayerBoxes = () => {
     var boxes = [];
-    for (var i = 0; i < settings.playerCount; i++) {
+    for (var i = 0; i < settings.qbCount; i++) {
       boxes.push(
         <Select
-          placeholder="select player"
-          name="players"
-          key={i}
+          placeholder="select qb"
+          name="qb"
+          key={'qb'+i}
           options={mappedQuarterbacks}
         />
       );
     }
+    for (var j = 0; j < settings.rbCount; j++) {
+      boxes.push(
+        <Select
+          placeholder="select rb"
+          name="rb"
+          key={'rb'+j}
+          options={mappedQuarterbacks}
+        />
+      );
+    }
+    for (var k = 0; k < settings.wrCount; k++) {
+      boxes.push(
+        <Select
+          placeholder="select wr"
+          name="wr"
+          key={'wr'+k}
+          options={mappedQuarterbacks}
+        />
+      );
+    }
+    
     return boxes;
   };
 
@@ -33,8 +55,8 @@ const LineItem = () => {
     let items = [];
     for (var i = 0; i < settings.playerCount; i++) {
       items.push(
-        <div style={{ width: "100%", borderBottom: "1px dashed #000000" }}>
-          <Stack spacing="24px" direction="row" key={i}>
+        <div style={{ width: "100%", borderBottom: "2px dashed #000000" }} key={i}>
+          <Stack style={{margin:"10px"}} spacing="24px" direction="row">
           {createPlayerBoxes()}
           </Stack>
         </div>
