@@ -1,16 +1,220 @@
-html, body {
-  margin:0px;
-  height:100%;
+html,
+body {
+  margin: 0px;
+  height: 100%;
 }
 
+
 .topBar {
-  height:120px;
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
   background: #0000008a;
 }
 
 .buttonGroupRight {
   float: right;
-  width: 130px;
-  background: #140e0e36;
+  width: 10%;
+  background: #a4a4a4;
   height: inherit;
+  text-align: center;
+}
+
+.timer {
+  float: left;
+  width: 17%;
+  background: #242424;
+  height: inherit;
+  text-align: center;
+  margin: auto;
+  white-space: nowrap;
+}
+
+.countdownText {
+  font-size: 5em;
+  color: rgb(113, 113, 113);
+  display: block;
+  float: left;
+  font-weight: bold;
+  font-style: italic;
+  width: 66%;
+  text-shadow: 3px 6px 0px rgba(255, 255, 255, 0.112);
+  margin: 0px;
+  padding: 0px;
+}
+
+.timerCompleted {
+  animation: blinker 3s linear infinite;
+  background: red;
+  height: 100%;
+  width: 100%;
+}
+
+.timerButtonsPanel {
+  float: right;
+  display: block;
+  text-align: center;
+  width: 33%;
+  padding: 0px;
+}
+
+.startButton {
+  height: 100%;
+  color: rgb(79, 137, 76);
+  padding-top: 5px;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.startButton:hover {
+  text-shadow: 3px 6px 0px rgba(255, 255, 255, 0.200);
+  color: rgb(13, 255, 0);
+}
+
+.pauseButton {
+  height: 100%;
+  color: rgb(83, 83, 83);
+  padding-top: 5px;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.pauseButton:hover {
+  text-shadow: 3px 6px 0px rgba(255, 255, 255, 0.200);
+  color: rgb(224, 224, 224);
+}
+
+.resetButton {
+  height: 100%;
+  color: rgb(186, 62, 62);
+  padding-top: 5px;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.resetButton:hover {
+  text-shadow: 3px 6px 0px rgba(255, 255, 255, 0.200);
+  color: rgb(255, 0, 0);
+}
+
+.lineItemLight {
+  width: 100;
+  /* border-bottom: 2px dashed #000000 ; */
+  background: #555;
+  box-shadow: 0 8px 8px -4px rgb(25, 25, 25);
+}
+
+.lineItemDark {
+  width: 100;
+  /* border-bottom: 2px dashed #000000 ; */
+  box-shadow: 0 8px 8px -4px rgb(25, 25, 25);
+  background: #333;
+}
+
+.nameBar {
+  height: 60px;
+  background: #8e8e8e;
+  width: 100%;
+  position: fixed;
+  top: 120px;
+  box-shadow: 0 8px 8px -4px rgb(84, 84, 84);
+}
+
+/* .nameBarEntry {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+.playerDisplay {
+  float: left;
+  display: flex;
+  background: #a4a4a4;
+  height: inherit;
+  text-align: center;
+  margin: auto;
+  width: 73%;
+  text-align: center;
+}
+
+.startDraftOverlay {
+  float: left;
+  display: flex;
+  background: rgba(255, 0, 0, 0.4);
+  height: inherit;
+  margin: auto;
+  width: 73%;
+  position: relative;
+}
+
+.startDraftCenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.searchResults {
+  padding: 5px;
+  width: 100%;
+  height: inherit;
+  text-align: left;
+}
+
+.suggestedPlayerBox {
+  /* height: 80px; */
+  width: 20%;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  user-select: none;
+}
+
+.suggestedPlayerBox:hover {
+  color: white;
+}
+
+.playerBox {
+  height: 85px;
+  /* border: 1px solid black; */
+  margin: 0px;
+  padding: 0px;
+  white-space: nowrap;
+  /* text-overflow: ellipsis; */
+  overflow: hidden;
+  /* width: inherit; */
+  ;
+}
+
+.currentPlayerBox {
+  padding-top: 15px;
+  text-align: center;
+  height: 85px;
+  /* border: 1px solid black; */
+  background-color: #e53e3e;
+  color: white;
+  margin: 0px;
+}
+
+.emptyBoxArrow {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  z-index: -1;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
