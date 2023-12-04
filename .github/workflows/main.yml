@@ -13,7 +13,7 @@ jobs:
 
     # Download our master branch
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v2
 
     - run: |
        git config --global user.email "nate0023@gmail.com"
