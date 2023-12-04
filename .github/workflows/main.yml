@@ -27,3 +27,4 @@ jobs:
       run: npm run deploy
       env:
          CI: ""
+         ACCESS_TOKEN: ${{ secrets.API_TOKEN }}
