@@ -299,7 +299,7 @@ export default function TopBar() {
 
         <Button
           leftIcon={<MdUndo />}
-          colorScheme='yellow'
+          colorScheme='red'
           variant='solid'
           onClick={() => undoPick()}>
           Undo
