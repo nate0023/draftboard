@@ -61,23 +61,6 @@ function DraggableDiv() {
     }
   };
 
-  // const fetchVideoURL = () => {
-  //   const player = 'patrick mahomes';
-  //   const url =
-  //     'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=' +
-  //     player +
-  //     '%20highlightstype=video&key=AIzaSyAyWYy1p3rwCJMCSopf4K2TMpGYB8gjwg0';
-  //   let response = fetch(url);
-  //   response.then((data) =>
-  //     data.json().then((data) => {
-  //       setVideoId(data.items[0].id.videoId);
-  //       document
-  //         .getElementById('videoFrame')
-  //         .setAttribute('src', 'https://www.youtube.com/embed/' + data.items[0].id.videoId);
-  //     })
-  //   );
-  // };
-
   const handleMouseDown = (e) => {
     setIsDragging(true);
 
